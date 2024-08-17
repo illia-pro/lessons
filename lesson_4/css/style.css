@@ -1,0 +1,10 @@
+@import url("reset.css");
+p {
+	color: #ff0000;
+}
+h2 {
+	color: blueviolet;
+}
+footer {
+	color: chartreuse;
+}
