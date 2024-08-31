@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;600;700&display=swap');
+@import url("reset.css");
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+.title,
+.sub-title{
+	font-family: "Poppins", sans-serif;
+}
+.title{
+	font-weight: 600;
+	font-size: 30px;
+	color: #37393F;
+	text-transform: uppercase;
+	line-height: 1.27;
+}
+.sub-title{
+	font-weight: 600;
+	font-size: 20px;
+	color: #6B77E5;
+	line-height: 1.27;
+}
+.text{
+	line-height: 1.47;
+}
