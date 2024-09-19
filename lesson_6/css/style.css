@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("reset.css");
+body{
+	font-family: "Inter", sans-serif;
+	}
+.consulting__title, .benefits__title, .consulting__sub-title, .benefits__sub-title{
+	font-family: "Poppins", sans-serif;
+}
+.consulting__title{
+	font-weight: 600;
+	font-size: 30px;
+	color: #37393F;
+	text-transform: uppercase;
+	line-height: 1.27;
+}
+.consulting__sub-title{
+	font-weight: 600;
+	font-size: 20px;
+	color: #6B77E5;
+	line-height: 1.27;
+}
+.benefits__title{
+	font-weight: 600;
+	font-size: 25px;
+	color: #37393F;
+	line-height: 1.27;
+}
+.benefits__sub-title{
+	font-weight: 600;
+	font-size: 20px;
+	color: #40DDB6;
+	line-height: 1.27;
+}
+.consulting__text, .benefits__list{
+	font-weight: 400;
+	font-size: 18px;
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+.consulting__img{
+	padding-left: 400px;
+}
+.consulting__title{
+	margin-top: 37px;
+	padding-left: 400px;
+}
+.consulting__sub-title{
+	padding-left: 400px;
+	margin-top: 42px;
+}
+.consulting__text{
+	padding-left: 400px;
+	margin-top: 3px;
+}
+.consulting__text{
+	margin-top: 12px;
+}
+.benefits__img{
+	padding-top: 40px;
+	width: 331px;
+	margin-left: 400px;
+}
+.benefits__sub-title{
+	padding-top: 15px;
+}
+.benefits__list{
+	padding-top: 24px;
+}
+.benefits__list li{
+	margin-bottom: 35px;
+}
+.benefits-content{
+	padding-top: 40px;
+	display: inline-block;
+	width: 332px;
+	font-size: 18px;
+}
