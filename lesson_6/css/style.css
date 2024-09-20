@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("reset.css");
-body{
+body {
 	font-family: "Inter", sans-serif;
-	}
+}
+.consulting {
+	max-width: 722px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
 .consulting__title, .benefits__title, .consulting__sub-title, .benefits__sub-title{
 	font-family: "Poppins", sans-serif;
 }
@@ -38,19 +43,14 @@ body{
 	color: #7D7D7D;
 	line-height: 1.46;
 }
-.consulting__img{
-	padding-left: 400px;
-}
+
 .consulting__title{
 	margin-top: 37px;
-	padding-left: 400px;
 }
 .consulting__sub-title{
-	padding-left: 400px;
 	margin-top: 42px;
 }
 .consulting__text{
-	padding-left: 400px;
 	margin-top: 3px;
 }
 .consulting__text{
@@ -59,7 +59,6 @@ body{
 .benefits__img{
 	padding-top: 40px;
 	width: 331px;
-	margin-left: 400px;
 }
 .benefits__sub-title{
 	padding-top: 15px;
@@ -75,4 +74,52 @@ body{
 	display: inline-block;
 	width: 332px;
 	font-size: 18px;
+}
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.jevels{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.jevels__title, .jevels__text{
+font-family: "Inter" sans-serif;
+}
+.jevels__title{
+	font-weight: 400;
+	font-size: 28px; 
+	color: #D06B00;
+	line-height: normal;
+}
+.jevels__sub-title{
+	font-family: "DM Serif Text", serif;
+	font-weight: 400;
+	font-size: 59px;
+	color: #0E333D;
+	line-height: 1.46;
+}
+.jevels__text{
+	font-weight: 400;
+	font-size: 20px;
+	color: #474747;
+	line-height: 1.8;
+}
+
+.jevels__sub-title{
+	margin-top: 13px;
+}
+.jevels__text{
+	margin-top: 25px;
+}
+/* .jevels__image{
+	display: inline-block;
+} */
+.jevel__content{
+	display: inline-block;
+	width: 550px;
+	margin-right: 38px;
+	padding: 20px 0;
 }
